@@ -93,7 +93,7 @@ As part of your architectural design, you need to consider how to store your dat
 
 - **Read/write from an existing system**: If your app needs to retrieve data from an existing database or system, you need to evaluate the best way to connect to the database or system: using an out-of-the-box connector, a custom connector, or virtual tables.
 
-- **Make a copy of the data**: In situations where original data should never be modified or overwritten, you can copy the data to another data store such as Dataverse. This ensures that the data in the original system isn't be changed, yet your app can work with it. This scenario is common when working with data in accounting and revenue-related systems. You need to consider how data is copied, how often it's updated, and whether a two-way sync needs to take place.
+- **Make a copy of the data**: In situations where original data should never be modified or overwritten, you can copy the data to another data store such as Dataverse. This ensures that the data in the original system cannott be changed, yet your app can work with it. This scenario is common when working with data in accounting and revenue-related systems. You need to consider how data is copied, how often it's updated, and whether a two-way sync needs to take place.
 
 ## Power Platform facilitation
 
